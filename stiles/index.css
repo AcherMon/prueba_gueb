@@ -1,0 +1,29 @@
+header{
+    background-color: chocolate; 
+    height: 67vh;
+    min-height: 72pt;
+}
+
+main{
+    background-color: cornflowerblue;
+    height: 67vh;
+    min-height: 72pt;
+}
+
+button{
+    height: 10vh;
+    min-height: 15pt;
+    width: 10vw;
+    min-width: 15pt;
+}
+
+h3{
+    color: olive;
+    font-size: 15px;
+}
+
+footer{
+    background-color: khaki;
+    height: 67vh;
+    min-height: 72pt;
+}
