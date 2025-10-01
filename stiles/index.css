@@ -1,6 +1,6 @@
 header{
     background-color: chocolate; 
-    height: 67vh;
+    height: 30vh;
     min-height: 72pt;
 }
 
@@ -17,6 +17,15 @@ button{
     min-width: 15pt;
 }
 
+section{
+    height: 50%;
+    background-color: cornflowerblue;
+    display:flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
 h3{
     color: olive;
     font-size: 15px;
@@ -24,6 +33,34 @@ h3{
 
 footer{
     background-color: khaki;
-    height: 67vh;
+    height: 30vh;
     min-height: 72pt;
 }
+
+@media only screen and (max-width: 600px){
+    section{
+        flex-direction: column-reverse;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
